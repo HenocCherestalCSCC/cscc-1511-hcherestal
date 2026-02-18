@@ -30,18 +30,18 @@ def main() -> None:
 
 #OUTPUT!!! 
 
-print("========================================") 
-print("         USED CAR PURCHASE RECEIPT      ") 
-print("========================================") 
-print(f"{'Base Price:':20}  ${base_price:10.2f}") 
-print(f"{'Tax (6.5%):':20} ${tax:10.2f}")
-print(f"{'License Fee:':20} ${license_fee:10.2f}") 
-print(f"{'Title Fee:':20} ${title_fee:10.2f}")
-print(f"{'Dealer Prep:':20} ${dealer_prep_fee:10.2f}")
-print(f"{'Destination:':20} ${destination_fee:10.2f}") 
-print("----------------------------------------")
-print(f"{'TOTAL:':20} ${total:10.2f}")
-print("========================================")
+    print("========================================") 
+    print("         USED CAR PURCHASE RECEIPT      ") 
+    print("========================================") 
+    print(f"{'Base Price:':20}  ${base_price:10.2f}") 
+    print(f"{'Tax (6.5%):':20} ${tax:10.2f}")
+    print(f"{'License Fee:':20} ${license_fee:10.2f}") 
+    print(f"{'Title Fee:':20} ${title_fee:10.2f}")
+    print(f"{'Dealer Prep:':20} ${dealer_prep_fee:10.2f}")
+    print(f"{'Destination:':20} ${destination_fee:10.2f}") 
+    print("----------------------------------------")
+    print(f"{'TOTAL:':20} ${total:10.2f}")
+    print("========================================")
 
-if __name__ == "__main__": 
-    main()
+    if __name__ == "__main__": 
+        main()
