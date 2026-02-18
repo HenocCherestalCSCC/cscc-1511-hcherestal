@@ -27,3 +27,12 @@ def main() -> None:
         + dealer_prep_fee
         + destination_fee
     )
+
+#OUTPUT!!! 
+
+print("========================================") 
+print("         USED CAR PURCHASE RECEIPT      ") 
+print("========================================") 
+print(f"{'Base Price:':20}  ${base_price:10.2f}") 
+print(f"{'Tax (6.5%):':20} ${tax:10.2f}")
+print(f"{'License Fee:':20} ${license_fee:10.2f}") 
