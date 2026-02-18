@@ -17,6 +17,9 @@ print(f"\nDie 1: {die1}")
 print(f"Die 2: {die2}")
 print(f"Total: {total}") 
 
+
+#Possibly try to consolidate, this seems clunky
+
 if die1 == 1 and die2 ==1:
     print("Snake Eyes")
 elif (die1 == 1 and die2 == 2) or (die1 == 2 and die2 == 1):
@@ -44,4 +47,6 @@ elif (die1 == 6 and die2 == 5) or (die1 == 5 and die2 == 6):
 elif die1 == 6 and die2 == 6:
     print("Boxcars")
 else:
-    print("No special term for this roll.")
+    print("No special term for this roll.") 
+
+    choice = input ("Roll again? (y/n): ").lower()
