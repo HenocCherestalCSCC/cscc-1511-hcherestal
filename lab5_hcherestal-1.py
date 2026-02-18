@@ -3,7 +3,7 @@ Program Name: Dice Rolling Terms
 Author: Henoc Cherestal 
 Purpose: Trying to simulate two dice roll results and print the right gambling term. 
 Start Code: None 
-Date 02/17/2026
+Date: 02/17/2026
 '''
 
 import random 
@@ -18,7 +18,8 @@ while True:
     print(f"Total: {total}") 
 
 
-    #Possibly try to consolidate, this seems clunky
+    #Possibly try to consolidate, this seems clunky ask Prof if treating the roll as a unordered pair would be better.
+    #That seems to be a better solution to writing (a,b) over and over. 
 
     if die1 == 1 and die2 ==1:
         print("Snake Eyes")
