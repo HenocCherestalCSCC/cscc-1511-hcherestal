@@ -1,7 +1,7 @@
 '''
-Program Name: Resturant Tip Calculator 
+Program Name: Used Car Receipt (Option 2)
 Author: Henoc Cherestal
-Purpose: This program calculates 15% and 20% tip suggestions based on a user's dinner bill total and displays formatted totals.
+Purpose: This program calculates a used car total cost (tax, license, fees) and prints it in an itemized receipt.
 Starter Code: None used.
 Date: 02/10/2026
 '''
