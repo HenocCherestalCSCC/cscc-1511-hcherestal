@@ -17,5 +17,13 @@ def main() -> None:
     destination_fee: float = 495.00 
 
     tax: float = base_price * tax_rate 
-    license_rate: float = base_price * license_rate 
-    
+    license_fee: float = base_price * license_rate 
+
+    total: float = (
+        base_price
+        + tax 
+        + license_fee 
+        + title_fee
+        + dealer_prep_fee
+        + destination_fee
+    )
