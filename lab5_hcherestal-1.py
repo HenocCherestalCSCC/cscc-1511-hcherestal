@@ -49,4 +49,7 @@ elif die1 == 6 and die2 == 6:
 else:
     print("No special term for this roll.") 
 
-    choice = input ("Roll again? (y/n): ").lower()
+    choice = input ("Roll again? (y/n): ").lower() 
+    if choice != "y":
+        print("Thanks for playing!") 
+        break
