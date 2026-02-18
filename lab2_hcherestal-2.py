@@ -43,5 +43,5 @@ def main() -> None:
     print(f"{'TOTAL:':20} ${total:10.2f}")
     print("========================================")
 
-    if __name__ == "__main__": 
-        main()
+if __name__ == "__main__": 
+     main()
