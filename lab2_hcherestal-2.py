@@ -12,4 +12,9 @@ def main() -> None:
     tax_rate: float = 0.065 #6.5% this is the 6.5 tax 
     license_rate: float = 0.0125 #1.25% personal chosen license 
 
+    title_fee: float = 75.00
+    dealer_prep_fee: float = 299.00
+    destination_fee: float = 495.00 
 
+
+    
