@@ -16,5 +16,6 @@ def main() -> None:
     dealer_prep_fee: float = 299.00
     destination_fee: float = 495.00 
 
-
+    tax: float = base_price * tax_rate 
+    license_rate: float = base_price * license_rate 
     
