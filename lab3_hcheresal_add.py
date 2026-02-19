@@ -4,3 +4,6 @@ Purpose: I import my list from Part 1 (no c/p, then append 5 more items, then pr
 Starter Code: None 
 Date: 2/11/2026
 '''
+from typing import List 
+from lab3_hcherestal_list import camping_items as base_items 
+
