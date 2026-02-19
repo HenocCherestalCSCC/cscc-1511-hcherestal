@@ -5,3 +5,18 @@ Purpose: Create a camping list of items, print the number of items, then print t
 Starter Code: None 
 Date: 2/11/2026
 ''' 
+
+from typing import List 
+
+camping_items: list[str] = [
+    "tent",
+    "sleeping bags"
+    "water bottle"
+    "camp stove" 
+    "flashlight"
+    "first aid kit"
+    "matches"
+    "map"
+    "rain jacket"
+    "trail mix"
+]
