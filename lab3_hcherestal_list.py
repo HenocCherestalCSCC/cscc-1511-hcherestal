@@ -10,15 +10,15 @@ from typing import List
 
 camping_items: list[str] = [
     "tent",
-    "sleeping bags"
-    "water bottle"
-    "camp stove" 
-    "flashlight"
-    "first aid kit"
-    "matches"
-    "map"
-    "rain jacket"
-    "trail mix"
+    "sleeping bags",
+    "water bottle",
+    "camp stove",
+    "flashlight",
+    "first aid kit",
+    "matches",
+    "map",
+    "rain jacket",
+    "trail mix",
 ]
 
 def main() -> None: 
