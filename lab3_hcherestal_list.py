@@ -25,3 +25,6 @@ def main() -> None:
     print(f"Total items: {len(camping_items)}")
     print("Sorted list (A-Z):")
     print(sorted(camping_items))
+
+if __name__ == "__main__": 
+    main()
