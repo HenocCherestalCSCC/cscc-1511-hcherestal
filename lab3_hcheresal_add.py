@@ -7,3 +7,5 @@ Date: 2/11/2026
 from typing import List 
 from lab3_hcherestal_list import camping_items as base_items 
 
+camping_items: List[str] = base_items.copy()
+
