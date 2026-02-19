@@ -20,3 +20,8 @@ camping_items: list[str] = [
     "rain jacket"
     "trail mix"
 ]
+
+def main() -> None: 
+    print(f"Total items: {len(camping_items)}")
+    print("Sorted list (A-Z):")
+    print(sorted(camping_items))
