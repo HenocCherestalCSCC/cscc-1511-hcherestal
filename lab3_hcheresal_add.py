@@ -9,8 +9,9 @@ from lab3_hcherestal_list import camping_items as base_items
 
 camping_items: List[str] = base_items.copy()
 
-camping_items.append()
-camping_items.append()
-camping_items.append()
-camping_items.append()
-camping_items.append()
+camping_items.append("pillow")
+camping_items.append("sunscreen")
+camping_items.append("bug spray")
+camping_items.append("camp chair")
+camping_items.append("knife")  
+
