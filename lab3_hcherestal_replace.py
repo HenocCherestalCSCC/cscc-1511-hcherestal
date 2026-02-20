@@ -15,7 +15,7 @@ replacemiddile_index:int = len(camping_items) // 2
 camping_items[replacemiddile_index] = "binoculars" 
 
 def main() -> None: 
-    '''printing slices around 'binoculars''''
+    '''printing slices around 'binoculars'''
     binocular_index: int = camping_items.index("binoculars")
     
     
