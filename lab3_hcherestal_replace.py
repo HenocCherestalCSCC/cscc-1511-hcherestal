@@ -39,4 +39,4 @@ if __name__ == "__main__":
 
     #is this the best way to do this? ask professor 
 
-    ## just realized I named my file 'add' file wrong my missing a t in my name VS Code was nice enough to refactor
+    ## just realized I named my 'add' file wrong I am missing a t in my name VS Code was nice enough to refactor
