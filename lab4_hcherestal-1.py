@@ -22,3 +22,13 @@ def get_card_amt(max_cards: int) -> int:
     #logic test
     while True: 
         user_input: str +input("How many cards do you want!? (1-" + str(max_cards) + "): ").strip() 
+
+        if not user_input.isdigit():
+            print("Stop messing around...Please enter a whole number.")
+            continue
+
+        count: int = int(user_imput)
+        if count < 1 or count > max_cards: 
+            print("Please enter a number from 1 to " + str(max_cards) + ".")
+            continue
+        return count
