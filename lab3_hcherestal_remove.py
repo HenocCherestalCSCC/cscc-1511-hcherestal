@@ -9,3 +9,10 @@ Date: 02/17/2026
 from typing import List 
 from lab3_hcherestal_replace import camping_items as items_from_part3
 
+camping_items: List[str] = items_from_part3.copy()
+
+#logic statement?
+if "binoculars" in camping_items:
+    camping_items.remove("binoculars")
+
+    
