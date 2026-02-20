@@ -15,3 +15,5 @@ camping_items.append("bug spray")
 camping_items.append("camp chair")
 camping_items.append("knife")  
 
+def main() -> None: 
+    
