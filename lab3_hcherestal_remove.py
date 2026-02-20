@@ -11,7 +11,6 @@ from lab3_hcherestal_replace import camping_items as items_from_part3
 
 camping_items: List[str] = items_from_part3.copy()
 
-#logic statement?
 if "binoculars" in camping_items:
     camping_items.remove("binoculars")
 
@@ -20,8 +19,6 @@ def main() -> None:
     print("Final camping list!:")
     print(camping_items)
     print(f"\nI will bring {len(camping_items)} total items on the camping trip.") 
-
-    #forcing newline escape in this and all previous files for cleanliness 
 
 if __name__ == "__main__":
     main()
