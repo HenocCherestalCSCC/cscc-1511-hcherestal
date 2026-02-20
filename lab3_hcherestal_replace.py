@@ -21,9 +21,9 @@ def main() -> None:
     
     '''binoculars is a bit long to type, now changing to bino'''
     before_bino: List[str] = camping_items[:binocular_index] 
-    bino_item: str = camping_items[:binocular_index]
+    bino_item: str = camping_items[binocular_index]
     '''basically copy above but add list str and add 1 to index''' 
-    after_bino: List[str] = camping_items[:binocular_index + 1 :]
+    after_bino: List[str] = camping_items[binocular_index + 1 :]
 
     print("Before binoculars:")
     print(before_bino)
