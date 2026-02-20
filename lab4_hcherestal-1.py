@@ -27,7 +27,7 @@ def get_card_amt(max_cards: int) -> int:
             print("Stop messing around...Please enter a whole number.")
             continue
 
-        count: int = int(user_imput)
+        count: int = int(user_input)
         if count < 1 or count > max_cards: 
             print("Please enter a number from 1 to " + str(max_cards) + ".")
             continue
@@ -37,3 +37,10 @@ def main() -> None:
     '''Main function to run the dealign program'''
     values: list[str] = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]
     suits: list[str] = ["c", "h", "s", "d"]
+
+    deck: list[str] = open_deck(values, suits)
+    requested_cards: int = get_card_amt(len(deck))
+
+    #this is where random starts earning its keep, no rpts with random sample
+
+    hand: list{str} = random.sample(deck, k=requested_cards)
