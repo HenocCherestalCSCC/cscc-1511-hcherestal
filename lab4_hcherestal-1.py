@@ -44,3 +44,11 @@ def main() -> None:
     #this is where random starts earning its keep, no rpts with random sample
 
     hand: list{str} = random.sample(deck, k=requested_cards)
+
+    print("\nYour hand:")
+    print(hand)
+
+    print("\nTotal cards requested: " + str(requested_cards)) 
+
+    if __name__ == "__main__": 
+        main()
