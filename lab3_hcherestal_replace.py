@@ -14,3 +14,11 @@ camping_items: List[str] = items_from_part_2lab.copy()
 replacemiddile_index:int = len(camping_items) // 2  
 camping_items[replacemiddile_index] = "binoculars" 
 
+def main() -> None: 
+    '''printing slices around 'binoculars''''
+    binocular_index: int = camping_items.index("binoculars")
+    '''binoculars is a bit long to type, now changing to bino'''
+    before_bino: List[str] = camping_items[:binocular_index] 
+    '''basically copy above but add list str and add 1 to index''' 
+    after_bino: List[str] = camping_items[:binocular_index + 1 :]
+    
