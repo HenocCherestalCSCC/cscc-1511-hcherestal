@@ -17,3 +17,8 @@ def open_deck(values: list[str], suits: list[str]) -> list[str]:
             deck.append(value + suit)
     return deck 
 
+def get_card_amt(max_cards: int) -> int: 
+    '''Ask until the user enters a valid number between 1 and max amt of cards'''
+    #logic test
+    while True: 
+        user_input: str +input("How many cards do you want!? (1-" + str(max_cards) + "): ").strip() 
