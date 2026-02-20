@@ -29,3 +29,10 @@ def main() -> None:
     print(before_bino)
 
     print ("\nBinoculars item")
+    print(bino_item)
+
+    print("\nAfter binoculars:")
+    print(after_bino)
+
+if __name__ == "__main__": 
+    main()
