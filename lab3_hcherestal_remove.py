@@ -2,7 +2,7 @@
 Program Name: Lab 3 Part 4 - Removing an item from my list 
 Author: Henoc Cherestal 
 Purpose: I should import the list for part 3 and remove 'binoculars' from the list, 
-then print the completed list. Then I should print hoe many items I am bringing using len().
+then print the completed list. Then I should print how many items I am bringing using len().
 Starter Code: None 
 Date: 02/17/2026
 '''
