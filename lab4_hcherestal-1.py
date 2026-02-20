@@ -21,7 +21,7 @@ def get_card_amt(max_cards: int) -> int:
     '''Ask until the user enters a valid number between 1 and max amt of cards'''
     #logic test
     while True: 
-        user_input: str +input("How many cards do you want!? (1-" + str(max_cards) + "): ").strip() 
+        user_input: str = input("How many cards do you want!? (1-" + str(max_cards) + "): ").strip() 
 
         if not user_input.isdigit():
             print("Stop messing around...Please enter a whole number.")
@@ -43,7 +43,7 @@ def main() -> None:
 
     #this is where random starts earning its keep, no rpts with random sample
 
-    hand: list{str} = random.sample(deck, k=requested_cards)
+    hand: list[str] = random.sample(deck, k=requested_cards)
 
     print("\nYour hand:")
     print(hand)
