@@ -7,7 +7,7 @@ Starter Code: None
 Date 02/16/2026
 '''
 from typing import List 
-from lab3_hcheresal_add import camping_items as items_from_part_2lab 
+from lab3_hcherestal_add import camping_items as items_from_part_2lab 
 
 camping_items: List[str] = items_from_part_2lab.copy() 
 
@@ -37,4 +37,6 @@ def main() -> None:
 if __name__ == "__main__": 
     main() 
 
-    #is this the best way to do this? ask professor
+    #is this the best way to do this? ask professor 
+
+    ## just realized I named my file 'add' file wrong my missing a t in my name VS Code was nice enough to refactor
