@@ -50,5 +50,5 @@ def main() -> None:
 
     print("\nTotal cards requested: " + str(requested_cards)) 
 
-    if __name__ == "__main__": 
+if __name__ == "__main__": 
         main()
