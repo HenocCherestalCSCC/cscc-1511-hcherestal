@@ -19,5 +19,5 @@ def main() -> None:
     print("Alphabetical list reversed (Z-A):")
     print(sorted(camping_items, reverse=True))
 
-    if __name__ == "__main__": 
-        main()
+if __name__ == "__main__": 
+    main()
