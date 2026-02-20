@@ -35,4 +35,6 @@ def main() -> None:
     print(after_bino)
 
 if __name__ == "__main__": 
-    main()
+    main() 
+
+    #is this the best way to do this? ask professor
