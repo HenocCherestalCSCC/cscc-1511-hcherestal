@@ -15,5 +15,9 @@ camping_items.append("bug spray")
 camping_items.append("camp chair")
 camping_items.append("knife")  
 
-def main() -> None: 
-    
+def main() -> None:
+    print("Alphabetical list reversed (Z-A):")
+    print(sorted(camping_items, reverse=True))
+
+    if __name__ == "__main__": 
+        main()
