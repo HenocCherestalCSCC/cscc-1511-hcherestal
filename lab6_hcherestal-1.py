@@ -15,3 +15,10 @@ def build_user_db() -> Dict[str, str]:
         "hcherestal": "$hootforan_@!",
         "admin": "Admin#2026",
     }
+
+def what_security_level(username: str) -> str: 
+    """Security level based on username, build logic statements"""
+    if username == "guest": 
+        return "Guest Access"
+    return "Security Level 1" 
+
