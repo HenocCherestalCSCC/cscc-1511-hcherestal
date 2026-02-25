@@ -13,7 +13,7 @@ def build_user_db() -> Dict[str, str]:
         "guest": "guest",
         "andywood": "pythonpro!!",
         "hcherestal": "$hootforan_@!",
-        "challenge": "@ccepted!",
+        "ADMINchallenge": "@ccepted!",
     }
 
 def what_security_level(username: str) -> str: 
@@ -48,7 +48,7 @@ def main() -> None:
     username: str = input ("Enter username: ").strip()
 
     if username not in users: 
-        print ("User not found. EXITING.")
+        print ("User not found. YOU. SHALL. NOT. PASS.")
         return 
     
     if not check_password(users, username, max_attempts=3): 
