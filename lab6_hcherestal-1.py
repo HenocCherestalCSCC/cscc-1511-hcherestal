@@ -58,4 +58,5 @@ def main() -> None:
     security_level: str = what_security_level(username)
     print(f"\nWelcome, {username}. You have {security_level}.")
 
-    
+if __name__ == "__main__":
+    main()
