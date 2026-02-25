@@ -41,3 +41,21 @@ def check_password(users: Dict[str, str], username: str, max_attempts: int = 3) 
 
     return False 
 
+def main() -> None: 
+    """This is to run the login program"""
+    users: Dict[str, str] = build_user_db()
+
+    username: str = input ("Enter username: ").strip()
+
+    if username not in users: 
+        print ("User not found. EXITING.")
+        return 
+    
+    if not check_password(users, username, max_attempts=3): 
+        print("Too many failed attempts. Account Locked.")
+        return
+    
+    security_level: str = what_security_level(username)
+    print(f"\nWelcome, {username}. You have {security_level}.")
+
+    
