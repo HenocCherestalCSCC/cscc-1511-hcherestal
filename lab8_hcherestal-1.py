@@ -40,3 +40,7 @@ def main() -> None:
 
     first11: str = upc[:11]
     provided_digit: int = int(upc[11])
+
+    print(f"\nThe first 11 digits are '{first11}'.")
+    print(f"The provided check digit is '{provided_digit}'.\n")
+    print("Calculating...")
