@@ -26,3 +26,15 @@ def find_UPC(first11:str) -> int:
     check_digit = (10 - (total % 10)) % 10 
 
     return check_digit
+
+def main() -> None: 
+    ''' Now i have to run the UPC validation program '''
+    while True: 
+        upc: str = input("Enter a 12-digit UPC: ").strip()
+
+        if len(upc) != 12 or not upc.isdigit(): 
+            print("INVALID INPUT. Please enter exactly 12 digits.\n")
+            continue
+
+        break
+
