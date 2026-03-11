@@ -1,3 +1,10 @@
-When I looked up stepwise refinement, it basically means I start with a big problem description, then I keep breaking it down into smaller and smaller steps until each step is simple enough to code. It is also called top-down design. I found that the term is strongly tied to Niklaus Wirth’s work, where the idea is to turn a program specification into real code through small, organized refinements.
+When I looked up stepwise refinement, it basically means I start with a big problem description, 
+then I keep breaking it down into smaller and smaller steps until each step is simple enough to code. 
+It is also called top-down design. I found that the term is strongly tied to Niklaus Wirth’s work, 
+where the idea is to turn a program specification into real code through small, organized refinements.
 
-In practice, this helps me a lot because it stops me from trying to code everything at once. Instead, I can write high-level pseudocode first (like “get input”, “validate input”, “calculate total”, “print receipt”), then refine each part into functions with details. That usually leads to cleaner code, less copy-paste, and fewer giant messy if blocks. It also makes debugging easier because I can test each small piece before moving on. Overall, stepwise refinement helps me write code that is easier to read and maintain, instead of a huge complicated script.
+In practice, this helps me a lot because it stops me from trying to code everything at once. 
+Instead, I can write high-level pseudocode first (like “get input”, “validate input”, “calculate total”, “print receipt”), 
+then refine each part into functions with details. That usually leads to cleaner code, less copy-paste, and fewer giant messy if blocks. 
+It also makes debugging easier because I can test each small piece before moving on. 
+Overall, stepwise refinement helps me write code that is easier to read and maintain, instead of a huge complicated script.
