@@ -49,4 +49,12 @@ def main() -> None:
     expected_digit = find_UPC(first11)
 
     print(f"The expected check digit is {expected_digit}.\n")
-    
+
+    if expected_digit == provided_digit: 
+        print("This is a VALID UPC.")
+    else:
+        print("This is an INVALID UPC.") 
+
+
+main()
+
