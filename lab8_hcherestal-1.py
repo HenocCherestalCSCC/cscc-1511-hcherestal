@@ -55,6 +55,29 @@ def main() -> None:
     else:
         print("This is an INVALID UPC.") 
 
+# NOTE: I tested the 'invalid' output example but it is actually valid when it comes to the standard UPC-A Checksum algorithm? 
+# 074590508994 is actually VALID, is this a trick question? 
+
+# First 11 digits: 07459050899
+#
+# Odd positions (1,3,5,7,9,11):
+# 0 + 4 + 9 + 5 + 8 + 9 = 35
+#
+# Multiply by 3:
+# 35 * 3 = 105
+#
+# Even positions (2,4,6,8,10):
+# 7 + 5 + 0 + 0 + 9 = 21
+#
+# Add totals:
+# 105 + 21 = 126
+#
+# Find check digit:
+# 126 % 10 = 6
+# 10 - 6 = 4
+#
+# The expected check digit is 4, which matches the provided digit?
+# 
 
 main()
 
