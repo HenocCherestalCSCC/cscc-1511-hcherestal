@@ -38,3 +38,5 @@ def main() -> None:
 
         break
 
+    first11: str = upc[:11]
+    provided_digit: int = int(upc[11])
