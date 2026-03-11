@@ -10,3 +10,19 @@ Date: 03/09/2026
 
 def find_UPC(first11:str) -> int: 
     '''Here I have to caluculate the correct UPC check digit from the first 11 digits'''
+
+    odd_sum = 0 
+    even_sum = 0 
+
+    for i in range(len(first11)):
+        digit = int(first11[i])
+
+        if i % 2 == 0:
+            odd_sum += digit 
+        else: 
+            even_sum += digit 
+
+    total = (odd_sum * 3) + even_sum
+    check_digit = (10 - (total % 10)) % 10 
+
+    return check_digit
