@@ -29,6 +29,7 @@ def find_UPC(first11:str) -> int:
 
 def main() -> None: 
     ''' Now i have to run the UPC validation program '''
+    ''' Doesn't really need a main but its cleaner in my opinion to put the main logic in it '''
     while True: 
         upc: str = input("Enter a 12-digit UPC: ").strip()
 
@@ -44,3 +45,8 @@ def main() -> None:
     print(f"\nThe first 11 digits are '{first11}'.")
     print(f"The provided check digit is '{provided_digit}'.\n")
     print("Calculating...")
+
+    expected_digit = find_UPC(first11)
+
+    print(f"The expected check digit is {expected_digit}.\n")
+    
