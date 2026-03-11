@@ -1,0 +1,10 @@
+Question Chosen: Pick a S.O.L.I.D. design principle and explain the concept and how you can meet that principle when designing a program. 
+
+
+One S.O.L.I.D. design principle that I should follow when designing programs is the Single Responsibility Principle (SRP). This principle means that a class should only have one responsibility or one main purpose in a program. Instead of having one class do many different things, each class should focus on one specific task. This makes the program easier to understand and maintain.
+
+When designing a program, I should try to separate different responsibilities into different classes. For example, if I were designing a program that manages users like the one I just made for the lab, I should not create one class that stores user data, handles login validation, and prints reports. That would give the class too many responsibilities.
+
+Instead, I can meet this principle by dividing those tasks into separate classes. I could create a User class that stores information such as the username and password. Then I could create a LoginManager class that checks whether a username and password are correct. If the program needed to generate reports, I could create another class like ReportGenerator.
+
+By designing programs this way, each class has a clear purpose. If something needs to change later, I only need to modify the class responsible for that specific task. Following the Single Responsibility Principle helps keep code organized and easier to maintain as the program grows. It helps not having to dig into a giant single class to find whats broken. 
