@@ -56,3 +56,19 @@ def main() -> None:
             break
 
         play_again = input("\nDo you want to toss the coins? (y/n): ")
+
+    
+    '''final score logic'''
+    print("\n--- Final Score ---")
+    print(f"{player1.get_name()}: {player1.get_wallet()}")
+    print(f"{player2.get_name()}: {player2.get_wallet()}")
+
+    if player1.get_wallet() > player2.get_wallet():
+        print(f"{player1.get_name()} finished with more coins!")
+    elif player2.get_wallet() > player1.get_wallet():
+        print(f"{player2.get_name()} finished with more coins!")
+    else:
+        print("It's a draw!")
+
+
+main()
