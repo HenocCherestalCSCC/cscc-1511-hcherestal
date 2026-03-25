@@ -12,6 +12,7 @@ from coin_lab9 import Coin
 class Player:
 
     def __init__(self, name: str) -> None:
+        '''initialize the name wallet and coin'''
         self.__name: str = name
         self.__wallet: int = 20
         self.__coin: Coin = Coin()
