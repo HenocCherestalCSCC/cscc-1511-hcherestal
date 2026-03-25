@@ -13,7 +13,14 @@ class Device:
     
     def show_info(self): 
         print(f"Device: {self.name}")
-        prirint(f"Status: {self.status}")
+        print(f"Status: {self.status}")
 
     def change_status(self, new_status):
         self.status = new_status    
+
+my_device = Device("Work Laptop", "Online")
+my_device.show_info() 
+
+
+my_device.change_status("Offline")
+my_device.show_info()
