@@ -7,6 +7,11 @@ Starter Code: None
 Date: 03/24/2026
 '''
 
-from coin import Coin 
+from coin_lab9 import Coin 
 
 class Player:
+
+    def __init__(self, name: str) -> None:
+        self.__name: str = name
+        self.__wallet: int = 20
+        self.__coin: Coin = Coin()
