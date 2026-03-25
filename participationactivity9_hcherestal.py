@@ -10,4 +10,9 @@ class Device:
     def __init__(self, name, status):
         self.name = name 
         self.status = status 
+    
+    def show_info(self): 
+        print(f"Device: {self.name}")
+        prirint(f"Status: {self.status}")
+
         
