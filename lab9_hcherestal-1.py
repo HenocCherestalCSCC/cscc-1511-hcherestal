@@ -41,4 +41,18 @@ def main() -> None:
     else:
         player2.win_coin()
         player1.lose_coin()
-        print(f"...No Match! {player2.get_name()} wins a coin.")
+        print(f"...No Match! {player2.get_name()} wins a coin.") 
+
+        print(f"\n{player1.get_name()} has {player1.get_wallet()} coins.")
+        print(f"{player2.get_name()} has {player2.get_wallet()} coins.")
+
+
+        '''re-adding wallet updates and replay prompting, also game over check'''
+        if player1.get_wallet() == 0:
+            print(f"\nGame Over! {player1.get_name()} has no coins left.")
+            break
+        if player2.get_wallet() == 0:
+            print(f"\nGame Over! {player2.get_name()} has no coins left.")
+            break
+
+        play_again = input("\nDo you want to toss the coins? (y/n): ")
