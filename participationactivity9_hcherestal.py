@@ -15,4 +15,5 @@ class Device:
         print(f"Device: {self.name}")
         prirint(f"Status: {self.status}")
 
-        
+    def change_status(self, new_status):
+        self.status = new_status    
