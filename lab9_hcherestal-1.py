@@ -12,7 +12,7 @@ from player import Player
 
 
 def main() -> None:
-    """Run the Match Coins game."""
+    #"""Run the Match Coins game."""
     player1 = Player("Player 1")
     player2 = Player("Player 2")
 
@@ -47,7 +47,7 @@ def main() -> None:
         print(f"{player2.get_name()} has {player2.get_wallet()} coins.")
 
 
-        '''re-adding wallet updates and replay prompting, also game over check'''
+        #re-adding wallet updates and replay prompting, also game over check
         if player1.get_wallet() == 0:
             print(f"\nGame Over! {player1.get_name()} has no coins left.")
             break
@@ -58,7 +58,7 @@ def main() -> None:
         play_again = input("\nDo you want to toss the coins? (y/n): ")
 
     
-    '''final score logic'''
+    #'''final score logic'''
     print("\n--- Final Score ---")
     print(f"{player1.get_name()}: {player1.get_wallet()}")
     print(f"{player2.get_name()}: {player2.get_wallet()}")
