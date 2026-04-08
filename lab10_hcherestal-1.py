@@ -72,7 +72,7 @@ def main() -> None:
         print("4. Princess of Mars")
         print("5. Exit")
 
-        choice = input("\nEnter your choice (1-5): ").strip()
+        choice = input("\nPlease enter your choice (1-5): ").strip()
 
         if choice == "5":
             print("\nGoodbye!")
@@ -89,4 +89,9 @@ def main() -> None:
         print(f"\nProcessing '{selected_path.name}'...")
 
         if analyzer.process_file():
-            analyzer.print_report()
+            analyzer.print_report() 
+        
+        input("\nPress Enter to return to the menu...") 
+
+if __name__ == "__main__":
+    main()
