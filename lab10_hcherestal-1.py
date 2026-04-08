@@ -76,4 +76,17 @@ def main() -> None:
 
         if choice == "5":
             print("\nGoodbye!")
-            break
+            break 
+
+        if choice not in files:
+            print("\nInvalid choice. Please select from 1-5.")
+            input("\nPress Enter to return to the menu...")
+            continue 
+
+        selected_path = files[choice]
+        analyzer = WordAnalyzer(str(selected_path))
+
+        print(f"\nProcessing '{selected_path.name}'...")
+
+        if analyzer.process_file():
+            analyzer.print_report()
