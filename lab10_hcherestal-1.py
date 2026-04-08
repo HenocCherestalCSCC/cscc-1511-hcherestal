@@ -45,9 +45,20 @@ class WordAnalyzer:
             return False  
 
     def print_report(self) -> None:
-            #'''Print the words and their counts in alphabetical order.'''
+            #'''Print the words and their counts in abc order.'''
             sorted_words = sorted(self.__frequencies.keys())
 
             print()
             for word in sorted_words:
-                print(f"{word:<20}:: {self.__frequencies[word]}")    
+                print(f"{word:<20}:: {self.__frequencies[word]}")     
+
+def main() -> None:
+    # '''this is to run the actual program.'''
+    base_path = Path(__file__).parent
+
+    files = {
+        "1": base_path / "monte_cristo.txt",
+        "2": base_path / "treasure_island.txt",
+        "3": base_path / "tarzan.txt",
+        "4": base_path / "princess_mars.txt",
+    }
