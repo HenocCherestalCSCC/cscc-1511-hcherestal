@@ -62,3 +62,18 @@ def main() -> None:
         "3": base_path / "tarzan.txt",
         "4": base_path / "princess_mars.txt",
     }
+
+    while True:
+        print("\n--- Word Analyzer ---")
+        print("Please select a file to analyze:")
+        print("1. Monte Cristo")
+        print("2. Treasure Island")
+        print("3. Tarzan")
+        print("4. Princess of Mars")
+        print("5. Exit")
+
+        choice = input("\nEnter your choice (1-5): ").strip()
+
+        if choice == "5":
+            print("\nGoodbye!")
+            break
