@@ -33,14 +33,14 @@ class WordAnalyzer:
                     words = clean_line.split()
 
                     for word in words: 
-                        if word in self.___frequencies: 
+                        if word in self.__frequencies: 
                             self.__frequencies[word] += 1 
                         else:
                             self.__frequencies[word] = 1 
 
             return True 
 
-        except FileNotFoundError
+        except FileNotFoundError:
             print(f"\nError: The file '{self.__filepath.name}' was not found.")
             return False  
 
