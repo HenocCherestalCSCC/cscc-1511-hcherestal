@@ -1,0 +1,7 @@
+Question: Explain how testing code improves your written code.
+
+I think testing my code actually makes me a better programmer because it forces me to really understand what my code is supposed to do. When I write tests, I have to think about different cases, like normal inputs, edge cases, and even wrong inputs. That makes me realize mistakes I would not have caught just by reading the code. For example, I might think a function works, but a test can show that it breaks when the input is empty or negative.
+
+Testing also helps me write cleaner and more organized code. If my code is hard to test, that usually means it is too complicated or not structured well. So I end up breaking it into smaller functions, which makes everything easier to read and maintain. I’ve noticed that when I test as I go, I spend less time debugging later because I catch problems early.
+
+Another thing is confidence. When my tests pass, I feel more sure that my program works correctly. If I change something later, I can run the tests again to make sure I didn’t break anything. Overall, testing improves my code quality, makes debugging easier, and helps me think more like a problem solver instead of just writing random code.
