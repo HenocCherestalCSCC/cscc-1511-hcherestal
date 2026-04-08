@@ -45,7 +45,7 @@ class WordAnalyzer:
             return False  
 
     def print_report(self) -> None:
-            """Print the words and their counts in alphabetical order."""
+            #'''Print the words and their counts in alphabetical order.'''
             sorted_words = sorted(self.__frequencies.keys())
 
             print()
