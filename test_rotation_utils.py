@@ -11,4 +11,11 @@ Starter Code: Uses the provided rotation_utils.py file from class/lab starter co
 import pytest
 from rotation_utils import adjust_rotation
 
+def test_adjust_rotation_100() -> None:
+    '''Test that 100 stays 100.'''
+    assert adjust_rotation(100) == 100
 
+
+def test_adjust_rotation_460() -> None:
+    '''Test that 460 wraps to 100.'''
+    assert adjust_rotation(460) == 100
