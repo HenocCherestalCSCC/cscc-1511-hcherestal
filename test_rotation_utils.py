@@ -18,4 +18,14 @@ def test_adjust_rotation_100() -> None:
 
 def test_adjust_rotation_460() -> None:
     '''Test that 460 wraps to 100.'''
-    assert adjust_rotation(460) == 100
+    assert adjust_rotation(460) == 100 
+
+def test_adjust_rotation_820() -> None:
+    """Test that 820 wraps to 100."""
+    assert adjust_rotation(820) == 100
+
+
+def test_adjust_rotation_negative_100() -> None:
+    """Test that -100 wraps to 260."""
+    assert adjust_rotation(-100) == 260
+
