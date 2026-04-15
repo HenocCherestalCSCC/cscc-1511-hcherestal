@@ -1,0 +1,8 @@
+Question 1: Search the internet for the concept  “double buffering” in computer graphics. Discuss the relationship between the pygame display.flip() method and double buffering. 
+
+
+In my understanding, double buffering is a graphics technique where the program draws the next frame on a hidden buffer first, instead of drawing directly to the screen. Once the frame is finished, the hidden buffer is swapped to the visible screen all at once. This helps prevent flickering and keeps the user from seeing half-drawn objects or shapes while the frame is still being built. Pygame’s own intro documentation explains this pretty clearly and says that the display is managed with a double buffer so the player only sees fully drawn frames.
+
+That is where pygame.display.flip() comes in. In Pygame, I usually draw everything for the current frame first, like the background, sprites, text, and anything else that changed. After that, I call pygame.display.flip(), which updates the full display and makes the completed frame visible. In other words, flip() is the step that shows the finished back buffer to the player. Pygame documentation also notes that flip() updates the entire display, and older Pygame docs connect it directly to flipping a double-buffered surface.
+
+So the relationship is pretty direct. Double buffering is the idea, and pygame.display.flip() is the method that lets that idea work on screen. Without it, the game could show incomplete drawing between steps, which would look messy and less professional.
