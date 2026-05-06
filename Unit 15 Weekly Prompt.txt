@@ -1,0 +1,5 @@
+Question: Discuss the differences between CSV and JSON data records. What are the best data types for CSV? The best data types for JSON?
+
+CSV and JSON are both used to store data, but I think they work best in different situations. CSV stands for comma-separated values. It is basically a table saved as plain text, where each row is a record and each comma separates a value. I would use CSV when the data is simple and flat, like a spreadsheet. For example, weather data, grades, names, prices, dates, and temperatures all fit well in a CSV file. The best data types for CSV are simple values like strings, integers, floats, and dates. Even though CSV stores everything as text at first, Python can convert those values into the right type later.
+
+JSON is more flexible because it stores data in a structure that looks a lot like Python dictionaries and lists. I would use JSON when the data has more detail or layers. For example, JSON is better for user profiles, API responses, settings files, or data where one record may contain lists or nested dictionaries. The best data types for JSON are strings, numbers, booleans, lists, dictionaries/objects, and null values.
