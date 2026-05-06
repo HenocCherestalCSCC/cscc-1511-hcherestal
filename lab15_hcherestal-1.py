@@ -10,7 +10,7 @@ Date: May 5, 2026
 """
 
 import math
-import matplotlib.pyplot as pltgit 
+import matplotlib.pyplot as plt 
 
 x_values = []
 y_values = []
@@ -28,3 +28,14 @@ for number in range(0, 628):
 
     x_values.append(x)
     y_values.append(y)
+
+
+plt.plot(x_values, y_values)
+
+plt.title("Heart Curve")
+plt.xlabel("x values")
+plt.ylabel("y values")
+
+plt.axis("equal")
+plt.savefig("heart_curve.png")
+plt.show()
