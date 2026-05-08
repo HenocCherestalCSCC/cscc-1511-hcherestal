@@ -1,0 +1,7 @@
+Question I am answering: Using the textbook and internet as resources, discuss the benefits of starring repositories and projects on Github.
+
+Starring repositories and projects on GitHub is useful because it gives me a simple way to save projects I may want to come back to later. Instead of trying to remember the name of a library, tutorial, or example project, I can star it and find it again from my stars page. GitHub’s own documentation says stars help users keep track of interesting repositories and topics, and starred items can also help GitHub recommend related projects on a user’s dashboard.
+
+I also think stars are useful for learning programming. In Python Crash Course, GitHub repositories are discussed as places where projects store code, issues, bug reports, and other project information. The book also explains that users can star projects they like to show support and keep track of projects they may want to use later. For me, that makes stars feel like a programmer’s bookmark system. If I find a useful Python project, a Pygame example, or a tool I might need later, starring it keeps it from getting lost.
+
+Another benefit is that stars help show which projects are popular or trusted by the community. GitHub says stars can show appreciation to maintainers, and many GitHub rankings depend on star counts. I would not blindly trust a project only because it has many stars, but I would definitely use stars as one signal when comparing projects. 
